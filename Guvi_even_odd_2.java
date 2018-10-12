@@ -13,9 +13,9 @@ class Guvi_even_odd_2
 		num=sc.nextInt();
 		
 		if(num%2==0)
-			System.out.println("");
+			System.out.println("Even");
 		else
-			System.out.println("Negative");
+			System.out.println("Odd");
 		
 	}
 }
