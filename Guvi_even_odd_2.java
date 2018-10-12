@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Guvi_positive_negative_1
+class Guvi_even_odd_2
 {
 	public static void main(String args[])
 	{
