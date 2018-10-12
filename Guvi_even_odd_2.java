@@ -12,6 +12,8 @@ class Guvi_even_odd_2
 		
 		num=sc.nextInt();
 		
+		if num<0
+			System.out.println("Invalid Number");
 		if(num%2==0)
 			System.out.println("Even");
 		else
