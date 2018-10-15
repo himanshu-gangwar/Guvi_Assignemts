@@ -1,5 +1,5 @@
 def primerange(sr,er):
-    for i in range(sr,er,1):
+    for i in range(sr+1,er,1):
         pw=2**i
         fer=pw-2
         if(fer%i==0):
