@@ -14,7 +14,7 @@ class Guvi_only_odd_14
 		er=sc.nextInt();
 
 		
-		for(i=sr;i<=er;i++)
+		for(i=sr+1;i<er;i++)
 		{
 			if(i%2==0)
 				continue;
