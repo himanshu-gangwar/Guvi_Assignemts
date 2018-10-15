@@ -13,7 +13,7 @@ class Guvi_only_armstrong_18
 		sr=sc.nextInt();
 		er=sc.nextInt();
 
-		for(i=sr;i<=er;i++)
+		for(i=sr+1;i<er;i++)
 		{
 			armno=0;
 			num=i;
