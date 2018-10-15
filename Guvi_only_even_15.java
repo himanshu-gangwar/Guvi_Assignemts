@@ -14,7 +14,7 @@ class Guvi_only_even_15
 		er=sc.nextInt();
 
 		
-		for(i=sr;i<=er;i++)
+		for(i=sr+1;i<er;i++)
 		{
 			if(i%2==0)
 				System.out.print(i+" ");
