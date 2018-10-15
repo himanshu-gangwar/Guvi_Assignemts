@@ -8,7 +8,9 @@ class Guvi_only_prime_16
 		
 		Scanner sc=new Scanner(System.in);
 		
-		int sr,er,i,pw,fer;
+		int sr,er,i;
+		
+		long pw,fer;
 		
 		sr=sc.nextInt();
 		er=sc.nextInt();
@@ -16,12 +18,12 @@ class Guvi_only_prime_16
 		
 		for(i=sr;i<=er;i++)
 		{
-			pw=(int)(Math.pow(2,i));
+			pw=(long)(Math.pow(2,i));
 		
 			fer=pw-2;
 		
-			if(fer%num==0)
-				System.out.println(i+" ");
+			if(fer%i==0)
+				System.out.print(i+" ");
 			else
 				continue;
 		}
